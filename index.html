@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/8203624?s=280&v=4">
+</head>
+
+<body>
+    <form class="hidden" id="login-form">
+        <input required maxlength=15 type="text" placeholder="What is your Name?" />
+        <input type="submit" value="Log In" />
+    </form>
+    <div class="clockdiv">
+        <h2 id="clock">00:00:00</h2>
+    </div>
+
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="What is your main focus today?" required>
+    </form>
+    <div class="todoclass">
+        <ul id="todo-list">
+        </ul>
+    </div>
+
+    <div class="quotesend">
+        <div id="quotes">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="weather">
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>
